@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TasteBite Restaurant — fresh food, warm atmosphere and unforgettable dining.">
+  <title>TasteBite Restaurant | Good Food, Great Moments</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header" id="top">
+    <nav class="nav container">
+      <a href="#top" class="logo">
+        <span class="logo-mark">T</span>
+        <span>Taste<span>Bite</span></span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+        <a href="#reservation" class="nav-cta">Book a Table</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">WELCOME TO TASTEBITE</p>
+        <h1>Good Food.<br><span>Great Moments.</span></h1>
+        <p class="hero-text">Fresh ingredients, bold flavours and a warm atmosphere — made for everyday meals and special memories.</p>
+        <div class="hero-actions">
+          <a href="#menu" class="btn btn-primary">Explore Our Menu <span>→</span></a>
+          <a href="#reservation" class="btn btn-light">Reserve a Table</a>
+        </div>
+        <div class="hero-note"><span>★</span> 4.9/5 from our happy guests</div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container feature-grid">
+        <div class="feature"><div class="feature-icon">✦</div><div><h3>Fresh Ingredients</h3><p>Quality you can taste</p></div></div>
+        <div class="feature"><div class="feature-icon">⌁</div><div><h3>Fast Service</h3><p>Made fresh, served right</p></div></div>
+        <div class="feature"><div class="feature-icon">♡</div><div><h3>Made With Love</h3><p>Every plate, every time</p></div></div>
+      </div>
+    </section>
+
+    <section class="section" id="menu">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">OUR MENU</p><h2>Made to make you hungry.</h2></div>
+          <p>From comforting classics to flavour-packed favourites, there is something for everyone.</p>
+        </div>
+
+        <div class="menu-filters" role="tablist">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="main">Main Dishes</button>
+          <button class="filter" data-filter="burger">Burgers</button>
+          <button class="filter" data-filter="dessert">Desserts</button>
+          <button class="filter" data-filter="drink">Drinks</button>
+        </div>
+
+        <div class="menu-grid">
+          <article class="food-card" data-category="main">
+            <div class="food-image"><img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=900&q=85" alt="Healthy rice bowl with vegetables"></div>
+            <div class="food-info"><div><h3>Garden Rice Bowl</h3><p>Seasoned rice, grilled vegetables & herbs</p></div><strong>₦8,500</strong></div>
+          </article>
+          <article class="food-card" data-category="main">
+            <div class="food-image"><img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85" alt="Colourful chicken and vegetable bowl"></div>
+            <div class="food-info"><div><h3>Grilled Chicken Bowl</h3><p>Juicy chicken, greens, rice & house sauce</p></div><strong>₦10,500</strong></div>
+          </article>
+          <article class="food-card" data-category="burger">
+            <div class="food-image"><img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=85" alt="Classic cheeseburger with fries"></div>
+            <div class="food-info"><div><h3>Signature Burger</h3><p>Beef patty, cheddar, lettuce & special sauce</p></div><strong>₦9,500</strong></div>
+          </article>
+          <article class="food-card" data-category="main">
+            <div class="food-image"><img src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=900&q=85" alt="Pasta with tomato sauce"></div>
+            <div class="food-info"><div><h3>Tomato Basil Pasta</h3><p>Al dente pasta, tomato, basil & parmesan</p></div><strong>₦8,000</strong></div>
+          </article>
+          <article class="food-card" data-category="dessert">
+            <div class="food-image"><img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=900&q=85" alt="Beautiful layered cake dessert"></div>
+            <div class="food-info"><div><h3>Velvet Cake</h3><p>Soft red velvet, cream cheese frosting</p></div><strong>₦5,500</strong></div>
+          </article>
+          <article class="food-card" data-category="drink">
+            <div class="food-image"><img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85" alt="Fresh fruit drinks"></div>
+            <div class="food-info"><div><h3>Fresh Fruit Cooler</h3><p>Seasonal fruits, citrus & mint</p></div><strong>₦4,000</strong></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="story section" id="about">
+      <div class="container story-grid">
+        <div class="story-image"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85" alt="Warm modern restaurant interior"></div>
+        <div class="story-content">
+          <p class="eyebrow">OUR STORY</p>
+          <h2>Food that brings people together.</h2>
+          <p>At TasteBite, we believe a great meal is more than what is on the plate. It is the conversation, the laughter, the atmosphere and the memories you take home.</p>
+          <p>Our kitchen combines fresh local ingredients with modern presentation and familiar flavours, creating dishes that feel special without feeling complicated.</p>
+          <div class="signature"><span>Since 2018</span><strong>TasteBite</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery section" id="gallery">
+      <div class="container">
+        <div class="section-heading centered"><div><p class="eyebrow">FOOD GALLERY</p><h2>A feast for the eyes.</h2></div></div>
+        <div class="gallery-grid">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1000&q=85" alt="Restaurant food spread">
+          <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=1000&q=85" alt="Fresh salad">
+          <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=1000&q=85" alt="Pasta dish">
+          <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=1000&q=85" alt="Dessert">
+          <img src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=1000&q=85" alt="Pasta plate">
+        </div>
+      </div>
+    </section>
+
+    <section class="reservation section" id="reservation">
+      <div class="container reservation-box">
+        <div><p class="eyebrow">RESERVATIONS</p><h2>Save a seat for something delicious.</h2><p>Planning a date night, family dinner or celebration? Tell us when you are coming.</p></div>
+        <form id="reservationForm" class="reservation-form">
+          <input type="text" id="guestName" placeholder="Your name" required>
+          <input type="tel" id="phone" placeholder="Phone number" required>
+          <input type="date" id="date" required>
+          <select id="guests" required><option value="">Guests</option><option>1 Guest</option><option>2 Guests</option><option>3 Guests</option><option>4 Guests</option><option>5+ Guests</option></select>
+          <button class="btn btn-primary" type="submit">Request Reservation</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container contact-grid">
+        <div><p class="eyebrow">COME SAY HELLO</p><h2>Let's make your next meal memorable.</h2></div>
+        <div class="contact-details">
+          <p><span>📍</span> 24 Taste Street, Abuja, Nigeria</p>
+          <p><span>☎</span> +234 800 123 4567</p>
+          <p><span>✉</span> hello@tastebite.com</p>
+          <p><span>◷</span> Mon–Sun: 10:00 AM – 10:00 PM</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <a href="#top" class="logo"><span class="logo-mark">T</span><span>Taste<span>Bite</span></span></a>
+      <p>© <span id="year"></span> TasteBite Restaurant. All rights reserved.</p>
+      <a href="#top" class="back-top">↑ Back to top</a>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>
